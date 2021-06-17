@@ -10,11 +10,13 @@
     <main>
         <div class="form-wrapper">
             <div class="form-title">Food Delivery Survey Form</div>
+            <p>Please complete the food delivery questionnaire.</p>
             <form action="">
                 <div class="gender">
                     <label for="gender">Gender :</label>
-                    <div class="field field-radio"></div>
+                    <div class="field field-radio">
                         <input type="radio" name="gender" id="male" value="male" /> Male
+                        <br />
                         <input type="radio" name="gender" id="female" value="female" /> Female
                     </div>
                 </div>
@@ -22,8 +24,11 @@
                     <label for="question-1">1.What is your favorite food delivery company?</label>
                     <div class="field field-radio">
                         <input type="radio" name="company" id="radio" value="Grab" /> Grab
+                        <br />
                         <input type="radio" name="company" id="radio2" value="Food Panda" /> Food panda
-                        <input type="radio" name="company" id="radio3" value="Lineman" /> Lineman 
+                        <br />
+                        <input type="radio" name="company" id="radio3" value="Lineman" /> Lineman
+                        <br />
                         <input type="radio" name="company" id="radio5" value="Others" /> Others
                     </div>
                     <label for="question-2">2.Why did you choose this company?</label>
@@ -37,6 +42,6 @@
             </form>
         </div>
     </main>
-    <script src="./index.js"></script>
+    <script type="text/javascript" src="src/index.js"></script>
 </body>
 </html>
