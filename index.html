@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="form-wrapper">
+            <div class="form-title">Food Delivery Survey Form</div>
+            <form action="">
+                <div class="gender">
+                    <label for="gender">Gender :</label>
+                    <div class="field field-radio"></div>
+                        <input type="radio" name="gender" id="male" value="male" /> Male
+                        <input type="radio" name="gender" id="female" value="female" /> Female
+                    </div>
+                </div>
+                <div class="questions">
+                    <label for="question-1">1.What is your favorite food delivery company?</label>
+                    <div class="field field-radio">
+                        <input type="radio" name="company" id="radio" value="Grab" /> Grab
+                        <input type="radio" name="company" id="radio2" value="Food Panda" /> Food panda
+                        <input type="radio" name="company" id="radio3" value="Lineman" /> Lineman 
+                        <input type="radio" name="company" id="radio5" value="Others" /> Others
+                    </div>
+                    <label for="question-2">2.Why did you choose this company?</label>
+                    <div class="field field-textarea">
+                        <textarea name="question-2" id="question-2" rows="3" cols="30"></textarea>
+                    </div>
+                </div>
+                <div class="field field-submit">
+                    <input type="submit" name="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
